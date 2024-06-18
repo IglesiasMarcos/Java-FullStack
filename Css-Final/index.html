@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/style/index.css">
+</head>
+<body>
+  <header class="nav">
+    <!-- Contenido del encabezado: logo, menú de navegación, etc. -->
+    <a class="logo" href="#">
+        <img src="logo.avif" width="100px" height="100px" alt="Logo de la empresa">
+    </a>
+    <nav>
+        <ul>
+            <li ><a href="sponsors.html">Sponsors</a></li>
+            <li ><a href="nosotros.html">Nosotros</a></li>
+            <li ><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Titulo Alto y Ancho</h2>
+    </section>
+
+    <section>
+      <h2 class="margin_atajos">Margin atajos</h2>
+    </section>
+
+    <section>
+      <h2>Posicionamiento</h2>
+      <hr>
+      <h3>Estático</h3>
+      <p>
+        Un elemento con position: static;
+        no está posicionado en de una manera en particular,
+        sino que siempre está posicionado al flujo natural de la página.
+      </p>
+      <div class="static">
+        Este elemento div tiene la propiedad position: static;
+      </div>
+
+    </section>
+    <section>
+      <h3>Relativo</h3>
+      <div class="relative">
+        Este elemento div tiene la propiedad position: relative;
+      </div>
+    </section>
+    <section>
+      <h3>Fixed</h3>
+      <p>
+        la caja está posicionada con respecto a la ventana del navegador. Se mantiene en el 
+        mismo lugar incluso al hacer scroll en la página. La referencia es el viewport, la parte visible del navegador
+      </p>
+      <div class="fixed">
+        Este elemento div tiene la propiedad position: fixed;
+      </div>
+    </section>
+    <section>
+      <h3>Absolute</h3>
+      <div class="ancestro">Este elemento div tiene la propiedad position: relative;
+        <div class="absolute">Este elemento div tiene la propiedad position: absolute;</div>
+      </div>
+    </section>
+    <section>
+      <h3>Sticky</h3>
+      <p>
+        Al realizar un scroll y después de alcanzar una posición de desplazamiento 
+        determinada, se “pega” al borde elegido.
+      </p>
+      <p>
+        Intenta scrollear para abajo esta sección para entender como funciona el posicionamiento sticky.
+      </p>
+      <div class="sticky">Soy un elemento sticky!</div>
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quaerat, et magnam reprehenderit, minima pariatur suscipit voluptas quo autem, officia odio voluptates amet quasi! Aliquid doloremque dicta nemo provident est, natus ea facilis quibusdam? Molestias dignissimos doloremque itaque accusantium illum adipisci quia eum dolorem sapiente dolor ratione, delectus cupiditate architecto soluta ad numquam rem inventore laudantium. Repellat, exercitationem sunt delectus dolorum facilis adipisci. Exercitationem, nesciunt praesentium iste beatae in quae laborum eaque saepe repellat maiores unde delectus, possimus adipisci ipsa impedit atque animi numquam totam quas? Eveniet, provident minus inventore, animi reiciendis autem nemo similique voluptatem illum earum ducimus praesentium!</p>
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quaerat, et magnam reprehenderit, minima pariatur suscipit voluptas quo autem, officia odio voluptates amet quasi! Aliquid doloremque dicta nemo provident est, natus ea facilis quibusdam? Molestias dignissimos doloremque itaque accusantium illum adipisci quia eum dolorem sapiente dolor ratione, delectus cupiditate architecto soluta ad numquam rem inventore laudantium. Repellat, exercitationem sunt delectus dolorum facilis adipisci. Exercitationem, nesciunt praesentium iste beatae in quae laborum eaque saepe repellat maiores unde delectus, possimus adipisci ipsa impedit atque animi numquam totam quas? Eveniet, provident minus inventore, animi reiciendis autem nemo similique voluptatem illum earum ducimus praesentium!</p>
+    </section>
+
+    <section>
+      <h2>Profundidad (z-index)</h2>
+      <p>
+        Establece el nivel de profundidad de un elemento sobre los demás. De esta forma, podremos superponer los elementos, quedando “apilados”. Los elementos se posicionan de acuerdo al nivel de profundidad, quedando “encima” los que poseen un valor de index mayor.
+      </p>
+
+      <div class="box">
+        <div class="z1">z1</div>
+        <div class="z2">z2</div>
+        <div class="z3">z3</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Display</h2>
+      <p class="display">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, officiis.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Footer 2024
+  </footer>
+</body>
+</html>

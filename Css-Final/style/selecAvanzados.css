@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+  background-color: #A6D31F;
+}
+
+main {
+  border-radius: 15px;
+  border: 1px blue solid;
+  background-color: #D3A61F;
+}
+
+section {
+  border-radius: 15px;
+  border: 1px blue solid;
+  background-color: #ECCA63;
+  margin: 2% 5%;
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee Spice', Helvetica, sans-serif;
+}
+
+h2 , p , div {
+  text-align: center;
+  color: green;
+  font-family: 'Tilt Neon', Helvetica, sans-serif;
+}
+
+div p {
+  color: blue;
+}
+
+span > a {
+  font-size: 36px;
+}
+
+div + p {
+  color: red;
+}
+
+span ~ p {
+  color: orange;
+}
+
+p:first-child {
+  color: white;
+  background-color: black;
+}
+
+p:last-child {
+  background-color: lime;
+  color: blueviolet;
+}
+
+div p:nth-child(3) {
+  background-color: red;
+  color: orange;
+}
+
+/*
+li:nth-child(2n + 3) {
+  background-color: blue;
+  color:black;
+} 
+*/
+
+
+li:nth-child(even) {
+  background-color: blue;
+}
+
+li:nth-child(odd) {
+  background-color: green;
+}
+
+a:link {
+  color: red;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+p::first-letter {
+  color: black;
+}
+
+p::first-line {
+  background-color: white;
+}
+
+::selection {
+  color: white;
+  background-color: blueviolet;
+}
+
+.agrup_seccion {
+  border: 2px blue solid ;
+  margin: 2% 0;
+  border-radius: 15px;
+  background-color: burlywood;
+}
+/* estilos para el icono de lista no ordenada */
+ul {
+  list-style: none; /* Quitamos los marcadores */
+  padding: 0; /* Quitamos el padding por defecto de la lista */
+  margin-left: 10px; /* Separamos la lista de la izquierda */
+}
+  
+li::before { /* Añadimos contenido antes de cada elemento de la lista */
+  content: "\00AE"; /* Insertamos el marcador */
+  padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+  color: yellow; /* Coloreamos la viñeta */
+}

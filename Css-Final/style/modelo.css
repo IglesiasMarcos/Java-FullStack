@@ -1,0 +1,29 @@
+section {
+  border: 2px blue solid;
+  margin: 3% 1%;
+  padding: 3%;
+  border-radius: 15px;
+  background-color: aquamarine;
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.ancho_alto {
+  height: auto;
+  width: auto;
+}
+
+.overflow {
+  font-size: 10vw;
+}
+
+span {
+  margin: 0 5%;
+}

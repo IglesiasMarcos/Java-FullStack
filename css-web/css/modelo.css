@@ -1,0 +1,27 @@
+
+
+section {
+border: 2px blue groove;
+margin: 3% 1% ;
+padding: 10px;
+background-color: aquamarine;
+color: blue;
+border-radius: 2%;
+}
+
+
+h1{
+    text-align: center;
+    
+    }
+
+h2{
+text-align: center;
+
+}
+
+.ancho_alto {
+height: auto;
+width: auto
+;
+}

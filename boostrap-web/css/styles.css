@@ -1,0 +1,21 @@
+#doce_col > div {
+  border: 2px blue solid;
+}
+
+#tres_col > div{
+  border: 2px blue solid;
+}
+
+.btn-custom {
+  color: blueviolet;
+  background-color: black;
+}
+
+.btn-custom:hover {
+  color: black;
+  background-color: blueviolet;
+}
+
+.card-group {
+  backdrop-filter: brightness(50%);
+}

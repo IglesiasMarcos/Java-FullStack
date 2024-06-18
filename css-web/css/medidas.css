@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  font-size: 22px;
+}
+
+header {
+  border: 2px blue double;
+}
+
+main {
+  border: 2px black solid;
+}
+
+section {
+  border: 2px green solid;
+}
+
+footer {
+  border: 2px red solid;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 0.5rem;
+}
+
+h3 {
+  font-size: 5vw;
+}
+
+

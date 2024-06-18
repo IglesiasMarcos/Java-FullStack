@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --main-bg-color: black;
+  --pink: #ff0571;
+  --yellow: #c2ff05;
+  --green: #1eff05;
+  --turq: #1cedae;
+  --red: #ff0534;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: var(--green);
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  font-size: 3.5vw;
+}
+
+h1 {
+
+}
+
+h2 {
+  color: var(--green);
+}
+
+section {
+  border: var(--green) 2px solid;
+}
+
+.card {
+  border: 2px var(--main-bg-color) solid;
+  border-radius: 15px;
+  background-color: grey;
+  margin: 2%;
+  padding: 0 5%;
+}
+
+.card img {
+  border: 1px var(--main-bg-color) solid;
+}
+
+.card h3 {
+  margin: 4% 0;
+}
+
+.card p {
+  margin: 2% 5%;
+}
+
+.botonera {
+  margin: 15px;
+  padding: 2%;
+}
+
+.botonera a {
+  background-color: var(--green);
+  color: var(--main-bg-color);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 2%;
+}

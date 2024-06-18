@@ -1,0 +1,60 @@
+.fuentes_32 {
+    font-size: 32px;
+}
+
+.fuentes_24 {
+    font-size: 24px;
+}
+
+.fuentes_16 {
+    font-size: 16px;
+}
+
+.estilo_italico {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
+.familia_fuente {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.peso_fuente{
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    border: 2px blueviolet solid;
+    border-radius: 1%;
+  }
+  
+  main {
+    border: 2px black solid;
+  }
+  
+  section {
+    border: 2px green solid;
+    border-radius: 1%;
+    margin: 2px;
+  }
+
+  header {
+   text-align: center;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  
+
+  
+
+
+

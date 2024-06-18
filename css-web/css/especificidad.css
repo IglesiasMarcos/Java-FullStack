@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+header {
+  border: 2px blue double;
+}
+
+main {
+  border: 2px black solid;
+}
+
+section {
+  border: 2px green solid;
+}
+
+footer {
+  border: 2px red solid;
+}
+
+p {
+  color: red;
+}
+
+.parrafo_clase {
+  color: blue;
+}
+
+#parrafo_id {
+  color: green !important;
+}

@@ -1,0 +1,53 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: white;
+    color: green;
+  }
+}
+
+@media only screen and (min-width: 401px) {
+  body {
+    background-color: red;
+    color: orange;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+    color: violet;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+    color: aqua;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: orange;
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: pink;
+    color: blueviolet;
+  }
+}

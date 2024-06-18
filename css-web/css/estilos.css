@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 2px blueviolet solid;
+  border-radius: 1%;
+}
+
+main {
+  border: 2px black solid;
+}
+
+section {
+  border: 2px green solid;
+  border-radius: 1%;
+  margin: 2px;
+}
+
+footer {
+  border: 2px red solid;
+}
+
+div {
+  color: green;
+  background-color: aqua;
+}
+/* Este es un comentario en CSS */
+body {
+  text-align: center;
+}
+
+.clase_titulo {
+  color: greenyellow;
+  background-color: green;
+  border: 2px white solid;
+}
+
+#parrafo_id {
+  color: white;
+  background-color: red;
+  border: 2px pink solid;
+  border-radius: 2%;
+}
+
+.span_color {
+  color:blueviolet;
+  background-color: plum;
+}
+
+.div_uno {
+  color:blue;
+  background-color: red;
+}
+
+.div_dos {
+  color:green;
+  background-color: white;
+}
